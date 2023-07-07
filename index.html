@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+      </head>
+<body>
+    
+    <div id="timer">
+        <div class="timer box">
+            <div class="timer-container">
+                <p class="timer-header">TEST WORDS</p>
+                <p class="timer-numbers"> <span class="hours-display">02</span>:<span class="minutes-display">30</span>:<span class="seconds-display">50</span></p>
+                <div class="progress-bar" style="background-color: darkgrey; height: 30px; width: 75%;"></div>
+                <p class="timer-header">TEST WORDS</p>           
+            </div>
+
+            <div class="button-container">
+                <button class="start-button">Start</button>
+                <button class="reset-button">Reset</button>
+            </div>
+
+            <div class="timer-settings-container">
+                <div class="time-input">
+                    <p>Timer <span>countdown? <input class="count-direction" type="checkbox" checked /></span> </p>
+                    <label>
+                        <input class="hours" type="number" min="0" placeholder="Hours" />
+                        <input class="minutes" type="number" min="0" placeholder="Minutes" />
+                        <input class="seconds" type="number" min="0" placeholder="Seconds" />
+                    </label>
+                </div>
+                <div class="blink-toggle">
+                    <p>Blink</p>
+                    <label>
+                        <input class="label" type="text" />
+                        <input class="toggle-flash" type="checkbox" />
+                    </label>
+        
+                
+                </div>
+                <div class="warn-input">
+                     <p>Warning Time</p>
+                    <label>
+                        <input class="warning-hours" type="number" min="0" placeholder="Hours" />
+                        <input class="warning-minutes" type="number" min="0" placeholder="Minutes" />
+                        <input class="warning-seconds" type="number" min="0" placeholder="Seconds" />
+                    </label>
+        
+                    
+                </div>
+            </div>
+            <div class="timer-settings-container">
+                <div class="cutstomizer-container timer-cutstomizer-container">
+                    <label>
+                        <input class="background-color" type="color" />
+                        Background Color
+                    </label>
+                    <label>
+                        <input class="text-color" type="color" />
+                        Text Color
+                    </label>
+                    <label>
+                        <input class="top-label-color" type="color" />
+                        Top Lable Color
+                    </label>
+                    <label>
+                        <input class="top-label-color" type="color" />
+                        Bottom Label Color
+                    </label>
+                </div>
+                    
+                <div class="label-inputs">
+                    <div class="label-input-wrapper">
+                        <p>Top Label</p>
+                        <label>
+                            <input class="label" type="text" />
+                            <input class="toggle-label" type="checkbox" />
+                        </label>
+                    </div>
+                    <div class="label-input-wrapper">
+                        <p>Bottom Label</p>
+                        <label>
+                            <input class="label" type="text" />
+                            <input class="toggle-label" type="checkbox" />
+                        </label>
+                    </div>
+                </div>
+
+
+
+            <div class="cutstomizer-container timer-cutstomizer-container">
+                    <label>
+                        <input class="background-color" type="color" />
+                        Background Color
+                    </label>
+                    <label>
+                        <input class="text-color" type="color" />
+                        Text Color
+                    </label>
+                    <label>
+                        <input class="top-label-color" type="color" />
+                        Top LableColor
+                    </label>
+                    <label>
+                        <input class="bottom-label-color" type="color" />
+                        Bottom Label Color
+                    </label>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="timer.js"></script>
+</body>
+</html>
